@@ -1,118 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="main.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Snake Tutorial</title>
-  </head>
-  <body>
+<html>
+    <head>
 
-    <button class='start'>Start/Restart</button>
-    <div class='score'>Score:<span>0</span></div>
+        <title>Snake Game</title>
+        <link rel="stylesheet" href="style.css">
 
-    <div class='grid'>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+    </head>
+    <body>
+        <div class='main'>
+            <h1 style="margin: 0;">Snake Game</h1>
+            <h2>Score: <span id="score"></span></h2>
+            <div class="grid"></div>
+            <button id="start">START</button>
+        </div>
 
-  </body>
-</html>
+        <div id="overlay">
+            <div id="modal">
+                <h2>Game over!</h2>
+                <button id="restart">Try again!</button>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+    
