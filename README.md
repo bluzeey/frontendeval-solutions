@@ -12,3 +12,6 @@ Here's the codepens for direct access to the solutions :
   -[Data Fetching and Visualization Challenge](https://codepen.io/bluzeey/pen/LYObegx)
   
   -[Carousel Challenge](https://codepen.io/bluzeey/pen/abVpbwa)
+  
+  -[Snake Game](https://codepen.io/bluzeey/pen/gOXmPBR)
+  
