@@ -8,8 +8,8 @@ I am currently creating a repository with all the solutions to their challenges.
 
 
 Here's the codepens for direct access to the solutions :
+<ul>
 
-[Data Fetching and Visualization Challenge](https://codepen.io/bluzeey/pen/LYObegx)
-
-Carousel Challenge-https://codepen.io/bluzeey/pen/abVpbwa
-
+  <li>[Data Fetching and Visualization Challenge](https://codepen.io/bluzeey/pen/LYObegx)</li>
+  <li>[Carousel Challenge](https://codepen.io/bluzeey/pen/abVpbwa)</li>
+</ul>
