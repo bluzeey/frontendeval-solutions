@@ -1,0 +1,10 @@
+input{
+    height:70px;
+}
+.input-field{
+    display:flex;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+}
