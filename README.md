@@ -23,3 +23,4 @@ Here's the codepens for direct access to the solutions :
   
   -[Snake Game](https://codepen.io/bluzeey/pen/gOXmPBR)
   
+  -[Two-factor-code-input](https://codepen.io/bluzeey/pen/gOXWgZV)
