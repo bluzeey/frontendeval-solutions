@@ -2,7 +2,9 @@
 [<img src="https://github.com/bluzeey/frontendeval-solutions/blob/main/intro.gif" alt="👋 Frontend Eval gif" title="👋 Check out frontendeval solutions"/>](https://sahil-maheshwari.com/)
 ## About
 <hr/>
-Frontendeval was built by three engineers,   [Mike Chen](https://twitter.com/genericmikechen)  
+Frontendeval was built by three engineers,   
+
+[Mike Chen](https://twitter.com/genericmikechen)  
 
 [Alexander Lee](https://twitter.com/TheTechRally)
 
