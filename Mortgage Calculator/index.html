@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <head>
+     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+     <meta content="utf-8" http-equiv="encoding">
+     <link rel="stylesheet" href="style.css"/>
+ </head>
+ <body>
+     <h1>Monthly Mortgage Calculator</h1>
+     <main class="">
+        <form>
+            <div class="">
+                <label for="principal">Principal Loan Amount</label><br>
+                <input type="text" id="principal" name="principal" value="0">
+            </div>
+            <div class="">
+                <label for="interest">Interest Rate</label><br>
+                <input type="text" id="interest" name="interest" value="0"> %
+            </div>
+            <div class="">
+                <label for="length">Length of Loan</label><br>
+                <input type="text" id="length" name="length" value="0"> Years
+            </div>
+            <button onClick="calculate()">Calculate</button>
+        </form>
+        <div id="monthlyInstallment" class=""></div>
+     </main>
+ </body>
+ <script src="main.js"></script>
+</html>
