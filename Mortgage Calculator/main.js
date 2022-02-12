@@ -10,5 +10,5 @@ function calculate(){
     let denominator=((1+monthlyInterestRate)**(length*12)) - 1
     let fraction=numerator/denominator
     let monthlyInstallment=Math.trunc(principal*fraction)
-    monthlyMortgage.innerText+=`Your monthly mortgage payment will be $${monthlyInstallment}`
+    monthlyMortgage.innerText=`Your monthly mortgage payment will be $${monthlyInstallment}`
 }
