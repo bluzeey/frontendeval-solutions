@@ -1,15 +1,20 @@
+body{
+    font-family:sans-serif;
+}
 .normal {
     padding: .5em 1em;
     margin:1em;
-    background: white;
+    background: gainsboro;
+    font: 1em sans-serif;
     border: 1px solid black;
 }
 
 .back {
     color: blue;
     padding: 1em;
-    background: white;
+    background: #fff5ff;
     border:none;
+    font: 1em sans-serif;
 }
 
 .form-component{
@@ -20,9 +25,17 @@
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff5ff;
 }
 
 input{
     padding:.5em;
     margin: .5em;
+}
+.title{
+    text-align: center;
 }
