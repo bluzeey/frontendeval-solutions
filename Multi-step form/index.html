@@ -5,24 +5,34 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="">
-        <div class="">
-                <label for="Name">Name</label><br>
+        <form onSubmit="showSuccess()">
+            <div class="form-component" id="NameForm">
+                <label for="Name"><h1>Name</h1></label><br>
                 <input type="text" id="Name" name="Name">
-        </div>
-        <div class="">
-                <label for="Email">Email</label><br>
+                <button onclick="changePage()" class="normal">Next</button>
+            </div>
+            <div class="form-component" id="EmailForm">
+                <button  onclick="previousPage()" class="back">&#x2190; Back</button>
+                <label for="Email"><h1>Email</h1></label><br>
                 <input type="email" id="Email" name="Email">
-        </div>
-        <div class="">
-                <label for="Date">Date of Birth</label><br>
+                <button onclick="changePage()" class="normal">Next</button>
+            </div>
+            <div class="form-component" id="DateForm">
+                <button class="back" onclick="previousPage()">&#x2190; Back</button>
+                <label for="Date"><h1>Date of Birth</h1></label><br>
                 <input type="date" id="Date" name="Date">
-        </div>
-        <div class="">
-                <label for="Password">Password</label><br>
+                <button onclick="changePage()" class="normal">Next</button>
+                </div>
+            <div class="form-component" id="PasswordForm">
+                <button class="back" onclick="previousPage()">&#x2190; Back</button>
+                <label for="Password"><h1>Password</h1></label><br>
                 <input type="password" id="Password" name="Password">
+                <button type="submit" class="normal">Submit</button>
+            </div>
+        </form> 
+        <div id="SuccessForm" class="form-component">
+             <p>Thanks for submitting the form! Your response has been recorded!</p>
         </div>
-    </div>
 </body>
 <script src="main.js"></script>
 </html>

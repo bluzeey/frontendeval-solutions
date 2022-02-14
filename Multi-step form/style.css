@@ -1,0 +1,28 @@
+.normal {
+    padding: .5em 1em;
+    margin:1em;
+    background: white;
+    border: 1px solid black;
+}
+
+.back {
+    color: blue;
+    padding: 1em;
+    background: white;
+    border:none;
+}
+
+.form-component{
+    border:1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input{
+    padding:.5em;
+    margin: .5em;
+}
