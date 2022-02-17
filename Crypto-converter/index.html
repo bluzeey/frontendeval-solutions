@@ -1,1 +1,22 @@
-<!DOCTYPE html></html>
+<!DOCTYPE html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form>
+        <input type="number" id="value">
+        <label for="currency">Choose a currency:</label>
+        <select name="currency" id="currency">
+            <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+        <option value="cny">CNY</option>
+        <option value="jpy">JPY</option>
+        </select>
+        <button type="submit" onclick="getValue()">Submit</button>
+    </form>  
+</body>
+<script src="main.js"></script>
+</html>
