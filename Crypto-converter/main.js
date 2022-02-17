@@ -25,4 +25,4 @@ async function updateValue(){
     }
     
 }
-setTimeout(updateValue,10000)
+setInterval(updateValue,3000)
