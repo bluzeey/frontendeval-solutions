@@ -26,3 +26,5 @@ Here's the codepens for direct access to the solutions :
   -[Two-factor-code-input](https://codepen.io/bluzeey/pen/gOXWgZV)
 
   -[Monthly Mortgage Calculator](https://codepen.io/bluzeey/pen/MWOoPBx) 
+
+  -[Rolling Dice](https://codepen.io/bluzeey/pen/XWzZeXN)
