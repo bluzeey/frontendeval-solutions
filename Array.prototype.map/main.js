@@ -1,7 +1,11 @@
 function map(array, callback) {
-   for (var i = 0; i < array.length; i++){
-       let value=array[i]*2
+   for(let i=0;i<=array.length;i++){
+       let newArray=[]
+       let value=array[i]
+       let updatedValue=callback(value)
+       newArray.push(updatedValue)
    }
+   return newArray
 }
 
 const mappedArray = map([1, 2, 3, 4, 5], (x) => x * 2);
