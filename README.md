@@ -1,4 +1,7 @@
 # frontendeval-solutions
+
+[![MIT License][license-shield]][license-url]
+
 [<img src="https://github.com/bluzeey/frontendeval-solutions/blob/main/intro.gif" alt="👋 Frontend Eval gif" title="👋 Check out frontendeval solutions"/>](https://sahil-maheshwari.com/)
 ## About
 <hr/>
@@ -28,3 +31,8 @@ Here's the codepens for direct access to the solutions :
   -[Monthly Mortgage Calculator](https://codepen.io/bluzeey/pen/MWOoPBx) 
 
   -[Rolling Dice](https://codepen.io/bluzeey/pen/XWzZeXN)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[license-shield]: https://img.shields.io/github/license/bluzeey/frontendeval-solutions.svg?style=for-the-badge
+[license-url]: https://github.com/bluzeey/frontendeval-solutions/blob/main/LICENSE.txt
